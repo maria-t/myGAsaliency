@@ -14,3 +14,8 @@ The framework is implemented in C++. The following libraries are used:
 - `C++ Standard` 
 - `xtensor`
 - `OpenCV` 
+
+You can compile the code with:
+
+``g++ -I "/home/usr/ProjectDirectory/xtl/include" -o myGAsaliency my_GA_saliency_framework.cpp `pkg-config opencv --cflags --libs` `` 
+
